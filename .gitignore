@@ -5,8 +5,8 @@
 *.log
 
 #target and node_modules directories
-back/target/**
-front/node_modules/**
+**/target/**
+**/node_modules/**
 
 # BlueJ files
 *.ctxt
