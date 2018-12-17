@@ -4,9 +4,10 @@
 # Log file
 *.log
 
-#target and node_modules directories
+#project generate directories
 **/target/**
 **/node_modules/**
+**/dist/**
 
 # BlueJ files
 *.ctxt

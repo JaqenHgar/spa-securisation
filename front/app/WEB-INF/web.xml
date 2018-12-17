@@ -27,7 +27,7 @@
   <description>                                                           
     Welcome to Tomcat                                                    
   </description>                                                          
-                                                                          
+                                                                     
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>
@@ -51,4 +51,9 @@
   <security-role>                                                     
       <role-name>user</role-name>                                     
   </security-role>
+
+  <error-page>
+     <error-code>404</error-code>
+     <location>/index.html</location>
+  </error-page>
 </web-app>
